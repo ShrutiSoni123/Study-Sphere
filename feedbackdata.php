@@ -6,7 +6,7 @@
     $designation = $_POST['designation'];
     $msg = $_POST['msg'];
 
-    $conn = new mysqli("fdb1033.awardspace.net", "3997385_notes", "e98}M3u/6z4-?AXZ", "3997385_notes");
+    $conn = new mysqli("server name", "user name", "password", "database name");
 
     // Check connection
     if ($conn->connect_error) {
