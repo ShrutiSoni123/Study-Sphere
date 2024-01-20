@@ -140,7 +140,7 @@ INSERT INTO `signup` (`email`, `pass`, `conpass`) VALUES
 ('bhavesh@gmail.com', 'Bhavesh#12345', 'Bhavesh#12345'),
 ('priyank@gmail.com', 'Priyank!12345', 'Priyank!12345'),
 ('shaijal@gmail.com', 'Shaijal@123', 'Shaijal@123'),
-('shrutisoni@gmail.com', 'Shruti@123456', 'Shruti@123456'),
+('shruti@gmail.com', 'Shruti@123456', 'Shruti@123456'),
 ('vinu@gmail.com', 'Vinu@123456', 'Vinu@123456');
 
 --
