@@ -3,7 +3,7 @@
     $unit = $_POST['unit'];
     $notes = $_POST['notes'];
    
-    $conn = new mysqli("fdb1033.awardspace.net", "3997385_notes", "e98}M3u/6z4-?AXZ", "3997385_notes");
+    $conn = new mysqli("server name", "username", "password", "database name");
     // Check connection
     if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
