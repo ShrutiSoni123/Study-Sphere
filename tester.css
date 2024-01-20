@@ -1,0 +1,61 @@
+
+  /* Syllabus accordians CSS */
+  .list-group-item{
+    background-color: transparent; 
+    color:goldenrod;
+  }
+  .list-group{
+    border: 1px solid grey;
+    border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    border-radius:30%;
+    text-align: center;
+    padding:50px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+   margin-left: 13px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .row{
+    padding-top:8%;
+  }
+  .accordion{
+    padding-top:0%;
+    border:2px solid goldenrod;
+  }
+  .accordion-button{
+    background-color:goldenrod;
+    color:#303030;
+    font-weight: bold;
+  }
+  .list-group-item:hover{
+    background-color: goldenrod;
+    color: rgb(28, 28, 28);
+  }
+  .container-fluid{
+    color:goldenrod;
+    text-align: center;
+  }
+  table{
+    border: goldenrod;
+  }
+  h3{
+    -webkit-text-stroke-width: 0.5px !important;
+    -webkit-text-stroke-color: black !important;
+    color: rgb(219, 165, 26);
+    font-size: 35px;
+    border-bottom: 1px goldenrod solid;
+    padding-bottom: 15px;
+  }
+  p{
+    font-size: large;
+    color: goldenrod;
+  }
+  button{
+    margin-top: 2px;
+    padding:5px;
+    margin-left: 1px;
+    background-color: goldenrod;
+    border: goldenrod;
+  }

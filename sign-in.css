@@ -1,0 +1,144 @@
+.container{
+    position: absolute;
+    left: 300px;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.left{
+    position: absolute;
+    left: 0px;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(135deg, hsla(43, 86%, 54%, 0.829),hsl(0, 0%, 0%,0.65)),url(assest/images/signin.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid goldenrod;
+    border-radius: 30px;
+    align-items: center;
+    /* filter: blur(0px); */
+    /* -webkit-filter: blur(1px); */
+}
+.left a
+{
+    margin-top: 25px;
+    margin-left: 160px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(206, 156, 31);
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left a:hover
+{
+    background-color: rgb(231, 171, 20);
+}
+.text{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.text_para
+{
+    margin: 20px;
+    margin-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.text_bottom{
+    margin-top: 230px;
+    margin-left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(206, 156, 29);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    margin-left: 386px;
+    border: 2px solid goldenrod;
+    border-radius: 30px;
+    /* background: linear-gradient(to bottom, #e7acec 0%, #8d2c8d 100%); */
+}
+h3
+{
+    margin-top: 20px;
+    margin-left: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-group-text
+{
+    background-color: goldenrod;
+    border-radius: 20px;
+}
+.sign_in
+{
+    /* background-color:rgb(241, 186, 47); */
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    animation-fill-mode: backwards;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(190, 143, 24);
+}
+.sign_in:hover
+{
+    background-color: goldenrod; 
+    color:black;
+}
+.form-control
+{
+    border-color: goldenrod;
+    border-radius: 15px;
+}
+.show{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.forgot
+{
+    margin-left: 65px;
+}
+.forgot a{
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.forgot a:hover
+{
+    color: rgb(231, 171, 20);    
+}
+.login_option
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login_option .bi
+{
+    margin-left: 12px;
+    color: goldenrod;
+    background-color: white;
+    border:1px solid white;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 50px;
+    padding:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login_option .bi:hover
+{
+    color: blue;
+    background-color: white;   
+}

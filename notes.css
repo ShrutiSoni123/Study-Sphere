@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black !important;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 4px 8px 0 goldenrod;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: goldenrod;
+  }
+  
+  .flip-card-front {
+    color:goldenrod;
+    border: 1px goldenrod solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 40% !important;
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+  
+  .flip-card-back {
+    color: goldenrod;
+    border: 1px goldenrod solid;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: rotateY(180deg);
+    padding-top: 18px;
+    text-decoration: none;
+    background: transparent;
+  }
+  .bi {
+    width: 10px;
+    height: 10px;
+  }
+nav a {
+    color: goldenrod;
+    text-decoration: none ;
+}
+/* nav a:hover{
+  color: black;
+  text-decoration:none!; 
+  cursor:pointer;  
+  background-color: goldenrod;
+} */
+ a {
+  color: goldenrod;
+  text-decoration: none !important;
+}
+
+#idforcolor a:hover {
+    color:goldenrod !important; 
+    text-decoration:none!important; 
+    cursor:pointer;  
+}
+
+.semester1{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10%;
+  border: 1px solid goldenrod;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: goldenrod;
+}
+.semester2{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10%;
+  border: 1px solid goldenrod;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: goldenrod;
+}
+.semester3{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10%;
+  border: 1px solid goldenrod;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: goldenrod;
+}
+.semester4{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10%;
+  border: 1px solid goldenrod;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: goldenrod;
+}
+.main-body{
+  margin-top: 15px;
+}
+.image{
+  background: linear-gradient(to right, hsla(43, 51%, 41%, 0.59),hsl(0, 0%, 0%,0.85)),url(assest/images/notesbg.jpeg);
+  /* background-image: url(images/library.jpg); */
+  height: 250px;
+  width: 100%;
+  /* background-position: center; */
+  background-position: center;
+  background-position-y: 35%;
+  
+}
+.image h1{
+  -webkit-text-stroke-width: 1px !important;
+  -webkit-text-stroke-color: goldenrod !important;
+  color: black !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 60px !important;
+  font-weight: lighter !important;
+  padding-top: 2%;
+  padding-left: 70%;
+}
+.image p{
+  padding-top: 1.5%;
+  padding-left: 35%;
+  -webkit-text-stroke-width: 1px !important;
+  -webkit-text-stroke-color: black !important;
+  color: rgb(219, 165, 26);
+  font-size: 30px;
+}
+.container{
+  margin-top: 10px !important;
+}
